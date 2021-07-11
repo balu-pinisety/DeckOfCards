@@ -11,8 +11,10 @@ public class MainRunner {
 		System.out.println("Program for the Deck Of Cards");
 		//Object Creation
 		DeckOfCards deckofcards = new DeckOfCards();
-		//Calling Methods
-		deckofcards.deckCreate();
+		//Deck of cards
+		System.out.println("Cards in Deck are: "+deckofcards.deckCreate());
+		//No. of Players
+		System.out.println("No.of players in game: "+deckofcards.playersNumber());
 	}
 	
 }
